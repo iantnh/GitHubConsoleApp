@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5C1E1A3-B6A6-4628-A307-2B66D9D00A38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55A717D8-5C34-4608-AADD-9E63B5BFDD4A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GitHubConsoleApp", "src\GitHubConsoleApp\GitHubConsoleApp.xproj", "{DE4318A2-85F6-45CC-9523-B6B3225BC5E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4318A2-85F6-45CC-9523-B6B3225BC5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4318A2-85F6-45CC-9523-B6B3225BC5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4318A2-85F6-45CC-9523-B6B3225BC5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4318A2-85F6-45CC-9523-B6B3225BC5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE4318A2-85F6-45CC-9523-B6B3225BC5E6} = {E5C1E1A3-B6A6-4628-A307-2B66D9D00A38}
+	EndGlobalSection
+EndGlobal
